@@ -1,0 +1,9 @@
+language: java
+deploy:
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-DanRodriz
+  api_key:
+    secure: M/2aNXjgXBPBCoSZYvTq2b4n99XAOMHQD2WrcUVvKS7HD5b/8d1FmUVy4b3aadWYngMB2lH7TVq5cTD+wUfGzdSRzJurQZEr5f/8Edz8LVAzt6ekfOQY207YvLD8dYOZ+b8+NZZv3+argoZFLtbrBjzYNXwCt/dgyqDWBqNBBgMqDuBYB571tRqC9toOCjmw27XMAMhJvbQH4afpKlaHwyMMNBTRog0ac+eVDFYOyScm0UVCGZbV+NfjCXJ0Wb3bPuu3UB1LgG+jJqVCTr7Myy61xG1nNXP36K/Ajlq/wlQJHyPhHqPQhtPhOSvwnhtOqhL4DP3BM4nxngY+en4rvLvGpYushfeLKupV9k02jHEnuA/FJIAFswymEq4K2ttLmuBLGilxYm/3UfG+d8NcqYIbnyzlFv6FGqL4fFfX02ZmLkGzOaorCDMAApLj5BAWWibzn2iPsYivmY3Bw8YRnCghfgJuEdulwjMA2avS278eS0l9SHIgbw90GTxrC2X8p+vIbQyBfEDt+8Wx1bJohOvyNMUmpQNbpChGSwpmPpaA3rcNqfsP+YdLSloXsAAu1POG0tPJw8ECnbjk11Q0ye4MLLAR2F91dO4E640Izxlib4r8+5qQOJPIROhKeSLTW2PCNNNzregeojjrM1hFpI1A1S+qPHWrhvVKp6Oc3ps=
